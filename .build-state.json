@@ -1,0 +1,1071 @@
+{
+  "completedPhase": 5,
+  "completedPhaseName": "pages_generated",
+  "dribbbleContext": "I found 5 professional design references from Dribbble for this industry:\n1. \"Scappa - Finance Website animation b2b banking digital banking exchange finance financial financial service fintech investment landing page modern money payment saas startup transactions ui wealth website\" — https://cdn.dribbble.com/userupload/17741137/file/still-138f8986548be60c1fe3daa58f7a7f8c.png\n2. \"Cirform - AI Finance Website ai ai fintech ai website banking banking platform crypto landing page cryptocurrency finance fintech fintech design fintech website fintech website design framer investment platform landing page product design saas trading webflow website\" — https://cdn.dribbble.com/userupload/45421776/file/still-2149e17c3c9a2ae6969230cf615a81c8.png\n3. \"Finvo - finance website design interface product service startup ui ux web website\" — https://cdn.dribbble.com/userupload/46465231/file/c2e77c35dbc72f5fcf0216460d43f9de.jpg\n4. \"Finance Website banking figma finance finance app finance website financial fintech investment landing page money ui uiux web design website\" — https://cdn.dribbble.com/userupload/43575047/file/original-872b02cb09bb8a699163ca8210b90338.png\n5. \"Finance Website Design branding clean cool design finance website graphic design home page interface landing landing page minimal muhammad ali saas saas landing page ui ux web web page website\" — https://cdn.dribbble.com/userupload/43516717/file/original-f151472d466b8a8e8ae9822678b6e5e9.jpg\n\nStudy these designs and match their quality level. Incorporate similar:\n- Layout patterns and section flow\n- Color palette sophistication\n- Typography choices\n- Whitespace and breathing room\n- Visual hierarchy and emphasis\nDo NOT copy them — create something original inspired by this quality level.",
+  "sitePlan": {
+    "pages": [
+      {
+        "route": "/",
+        "name": "Home",
+        "title": "John Hlongwani Associates | Strategic Financial Partners in Johannesburg",
+        "sections": [
+          {
+            "id": "hero",
+            "type": "hero",
+            "description": "High-impact hero section with a dark, modern interface aesthetic similar to the 'Scappa' reference.",
+            "content_notes": "Headline: 'Securing Your Legacy, Empowering Your Growth.' Subheadline: 'Johannesburg’s premier financial consultancy for high-net-worth individuals and forward-thinking enterprises.' CTA: 'Book a Consultation'."
+          },
+          {
+            "id": "trust-indicators",
+            "type": "logos",
+            "description": "Strip of logos showing professional bodies (SAICA, IRBA) and generic corporate partners.",
+            "content_notes": "Desaturated logos to maintain visual hierarchy."
+          },
+          {
+            "id": "services-preview",
+            "type": "grid",
+            "description": "Bento-grid style layout showcasing the 4 main service pillars.",
+            "content_notes": "Cards for Tax, Audit, Advisory, and Wealth. Hover effects with glassmorphism."
+          },
+          {
+            "id": "about-snippet",
+            "type": "split",
+            "description": "Image on left, text on right. Brief introduction to the firm.",
+            "content_notes": "Focus on local expertise in the Sandton/JHB market combined with global financial standards."
+          },
+          {
+            "id": "stats",
+            "type": "stats-row",
+            "description": "Animated counters.",
+            "content_notes": "Assets Managed, Years Experience, Corporate Clients."
+          },
+          {
+            "id": "cta-banner",
+            "type": "cta",
+            "description": "Full width gradient background.",
+            "content_notes": "Ready to optimize your financial position? Let's talk."
+          }
+        ],
+        "image_needs": "Modern Johannesburg skyline (Sandton), abstract data visualization graphics, professional handshake close-up."
+      },
+      {
+        "route": "/about",
+        "name": "About Us",
+        "title": "Our Firm & Legacy | John Hlongwani Associates",
+        "sections": [
+          {
+            "id": "about-hero",
+            "type": "hero-text",
+            "description": "Clean typography-focused header.",
+            "content_notes": "Headline: 'Built on Integrity, Driven by Excellence.'"
+          },
+          {
+            "id": "story",
+            "type": "text-block",
+            "description": "Narrative of the firm's founding.",
+            "content_notes": "The story of John Hlongwani establishing the firm to bridge the gap between complex regulation and business growth."
+          },
+          {
+            "id": "values",
+            "type": "cards",
+            "description": "3-column grid of core values.",
+            "content_notes": "Transparency, Agility, Precision."
+          },
+          {
+            "id": "cta",
+            "type": "simple-cta",
+            "description": "Link to team page.",
+            "content_notes": "Meet the experts behind our success."
+          }
+        ],
+        "image_needs": "Modern office interior, diverse team meeting in boardroom, architectural details."
+      },
+      {
+        "route": "/team",
+        "name": "Our Team",
+        "title": "Executive Team | John Hlongwani Associates",
+        "sections": [
+          {
+            "id": "team-intro",
+            "type": "intro",
+            "description": "Brief intro text.",
+            "content_notes": "Meet the chartered accountants and advisors dedicated to your success."
+          },
+          {
+            "id": "leadership",
+            "type": "profile-grid",
+            "description": "Large cards for partners/directors.",
+            "content_notes": "John Hlongwani (Managing Partner) and senior associates. Includes bio snippets and LinkedIn links."
+          },
+          {
+            "id": "staff",
+            "type": "list-grid",
+            "description": "Smaller grid for support staff and junior associates.",
+            "content_notes": "Names and titles."
+          }
+        ],
+        "image_needs": "Professional headshots (studio lighting, dark background), candid working shots."
+      },
+      {
+        "route": "/services",
+        "name": "Services Overview",
+        "title": "Financial Services | John Hlongwani Associates",
+        "sections": [
+          {
+            "id": "services-hero",
+            "type": "hero",
+            "description": "Abstract financial background.",
+            "content_notes": "Comprehensive financial solutions tailored for the South African market."
+          },
+          {
+            "id": "service-list",
+            "type": "alternating-features",
+            "description": "Left-right alternating layout summarizing each service with a 'Learn More' button.",
+            "content_notes": "Summaries of Tax, Audit, Advisory, and Wealth Management."
+          }
+        ],
+        "image_needs": "Abstract 3D shapes representing growth and stability, coins/currency stylized."
+      },
+      {
+        "route": "/services/tax-consulting",
+        "name": "Tax Consulting",
+        "title": "Tax Consulting & Compliance | JHA Services",
+        "sections": [
+          {
+            "id": "tax-hero",
+            "type": "hero-service",
+            "description": "Focused header.",
+            "content_notes": "Navigating SARS complexity with ease."
+          },
+          {
+            "id": "tax-details",
+            "type": "content-list",
+            "description": "Detailed bullet points.",
+            "content_notes": "Corporate Tax, VAT, PAYE, Dispute Resolution, International Tax Structuring."
+          },
+          {
+            "id": "process",
+            "type": "steps",
+            "description": "How we work.",
+            "content_notes": "Assessment -> Strategy -> Filing -> Review."
+          },
+          {
+            "id": "cta-tax",
+            "type": "cta",
+            "description": "Specific call to action.",
+            "content_notes": "Ensure your compliance today. Contact us."
+          }
+        ],
+        "image_needs": "calculator, tax documents, clean desk setup."
+      },
+      {
+        "route": "/services/audit-assurance",
+        "name": "Audit & Assurance",
+        "title": "Audit & Assurance | JHA Services",
+        "sections": [
+          {
+            "id": "audit-hero",
+            "type": "hero-service",
+            "description": "Focused header.",
+            "content_notes": "Uncompromising accuracy for stakeholders."
+          },
+          {
+            "id": "audit-scope",
+            "type": "grid",
+            "description": "Scope of work cards.",
+            "content_notes": "Statutory Audits, Internal Reviews, Due Diligence, Forensic Auditing."
+          },
+          {
+            "id": "cta-audit",
+            "type": "cta",
+            "description": "Standard CTA.",
+            "content_notes": "Request an audit proposal."
+          }
+        ],
+        "image_needs": "Magnifying glass abstract, digital tablet with graphs, person reviewing papers."
+      },
+      {
+        "route": "/services/business-advisory",
+        "name": "Business Advisory",
+        "title": "Business Advisory & B-BBEE | JHA Services",
+        "sections": [
+          {
+            "id": "advisory-hero",
+            "type": "hero-service",
+            "description": "Focused header.",
+            "content_notes": "Strategic insights to scale your enterprise."
+          },
+          {
+            "id": "offerings",
+            "type": "icon-grid",
+            "description": "Service breakdown.",
+            "content_notes": "Mergers & Acquisitions, Risk Management, B-BBEE Consulting, Cash Flow Modeling."
+          },
+          {
+            "id": "cta-advisory",
+            "type": "cta",
+            "description": "Standard CTA.",
+            "content_notes": "Schedule a strategy session."
+          }
+        ],
+        "image_needs": "Boardroom presentation, whiteboard strategy, chess piece abstract."
+      },
+      {
+        "route": "/services/wealth-management",
+        "name": "Wealth Management",
+        "title": "Private Wealth Management | JHA Services",
+        "sections": [
+          {
+            "id": "wealth-hero",
+            "type": "hero-service",
+            "description": "More lifestyle-oriented header.",
+            "content_notes": "Preserving capital for future generations."
+          },
+          {
+            "id": "wealth-approach",
+            "type": "split",
+            "description": "Philosophy section.",
+            "content_notes": "Holistic financial planning, estate planning, and investment advisory."
+          },
+          {
+            "id": "cta-wealth",
+            "type": "cta",
+            "description": "Standard CTA.",
+            "content_notes": "Start your wealth journey."
+          }
+        ],
+        "image_needs": "Lifestyle shots, luxury architecture, gold abstract elements."
+      },
+      {
+        "route": "/insights",
+        "name": "Insights",
+        "title": "Financial Insights & News | John Hlongwani Associates",
+        "sections": [
+          {
+            "id": "blog-hero",
+            "type": "hero-text",
+            "description": "Header.",
+            "content_notes": "Latest updates on Finance, Tax Law, and Markets."
+          },
+          {
+            "id": "post-grid",
+            "type": "blog-grid",
+            "description": "Grid of articles.",
+            "content_notes": "Placeholders: 'Understanding the 2024 Budget Speech', 'Tax Implications of Crypto Assets in SA', 'SME Survival Guide'."
+          }
+        ],
+        "image_needs": "Newspaper textures, digital screens showing stock markets."
+      },
+      {
+        "route": "/faq",
+        "name": "FAQ",
+        "title": "Frequently Asked Questions | John Hlongwani Associates",
+        "sections": [
+          {
+            "id": "faq-header",
+            "type": "hero-text",
+            "description": "Simple header.",
+            "content_notes": "Common questions about our engagement process."
+          },
+          {
+            "id": "accordion",
+            "type": "accordion",
+            "description": "Q&A list.",
+            "content_notes": "Questions about fee structures, remote capabilities, and industry specializations."
+          }
+        ],
+        "image_needs": "None specific, use abstract background."
+      },
+      {
+        "route": "/contact",
+        "name": "Contact",
+        "title": "Contact Us | John Hlongwani Associates",
+        "sections": [
+          {
+            "id": "contact-hero",
+            "type": "split-form",
+            "description": "Left side contact info, right side form.",
+            "content_notes": "Address: Sandton Central. Phone, Email, WhatsApp link. Form fields: Name, Company, Service Interest, Message."
+          },
+          {
+            "id": "map",
+            "type": "map-embed",
+            "description": "Google Maps embed.",
+            "content_notes": "Centered on Johannesburg office location."
+          }
+        ],
+        "image_needs": "Reception area, person on phone, exterior building shot."
+      },
+      {
+        "route": "/privacy-policy",
+        "name": "Privacy Policy",
+        "title": "Privacy Policy",
+        "sections": [
+          {
+            "id": "legal-text",
+            "type": "text-block",
+            "description": "Standard legal text.",
+            "content_notes": "POPIA Compliance details."
+          }
+        ],
+        "image_needs": "None."
+      },
+      {
+        "route": "/terms-of-service",
+        "name": "Terms of Service",
+        "title": "Terms of Service",
+        "sections": [
+          {
+            "id": "legal-text",
+            "type": "text-block",
+            "description": "Standard legal text.",
+            "content_notes": "Standard terms of engagement."
+          }
+        ],
+        "image_needs": "None."
+      }
+    ],
+    "navigation": {
+      "items": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "About",
+          "href": "/about"
+        },
+        {
+          "label": "Team",
+          "href": "/team"
+        },
+        {
+          "label": "Services",
+          "href": "/services",
+          "children": [
+            {
+              "label": "Tax Consulting",
+              "href": "/services/tax-consulting"
+            },
+            {
+              "label": "Audit & Assurance",
+              "href": "/services/audit-assurance"
+            },
+            {
+              "label": "Business Advisory",
+              "href": "/services/business-advisory"
+            },
+            {
+              "label": "Wealth Management",
+              "href": "/services/wealth-management"
+            }
+          ]
+        },
+        {
+          "label": "Insights",
+          "href": "/insights"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Company",
+          "links": [
+            {
+              "label": "About Us",
+              "href": "/about"
+            },
+            {
+              "label": "Our Team",
+              "href": "/team"
+            },
+            {
+              "label": "Insights",
+              "href": "/insights"
+            },
+            {
+              "label": "Contact",
+              "href": "/contact"
+            }
+          ]
+        },
+        {
+          "title": "Expertise",
+          "links": [
+            {
+              "label": "Tax Consulting",
+              "href": "/services/tax-consulting"
+            },
+            {
+              "label": "Audit & Assurance",
+              "href": "/services/audit-assurance"
+            },
+            {
+              "label": "Business Advisory",
+              "href": "/services/business-advisory"
+            },
+            {
+              "label": "Wealth Management",
+              "href": "/services/wealth-management"
+            }
+          ]
+        },
+        {
+          "title": "Support",
+          "links": [
+            {
+              "label": "FAQ",
+              "href": "/faq"
+            },
+            {
+              "label": "Privacy Policy",
+              "href": "/privacy-policy"
+            },
+            {
+              "label": "Terms of Service",
+              "href": "/terms-of-service"
+            }
+          ]
+        }
+      ]
+    },
+    "design_direction": {
+      "mood": "Sophisticated, Trustworthy, Modern Fintech-inspired but grounded in corporate professionalism.",
+      "color_strategy": "Primary: Deep Charcoal/Navy (#0F172A). Secondary: Slate Blue (#475569). Accent: Muted Metallic Gold (#C5A059) or Electric Teal (#2DD4BF) for digital touches. Use of dark mode aesthetic with subtle gradients.",
+      "font_pairing": "Headings: 'Manrope' or 'Outfit' (Modern, geometric sans-serif). Body: 'Inter' or 'Plus Jakarta Sans' (Clean, highly legible).",
+      "layout_style": "Bento-grid layouts for services, heavy use of glassmorphism on cards, generous whitespace, smooth scroll animations, and abstract 3D elements mixed with high-end photography."
+    },
+    "image_queries": [
+      "Johannesburg Sandton skyline modern sunset",
+      "diverse corporate team meeting board room modern",
+      "abstract 3d finance graph gold and blue",
+      "black businessman analyzing documents tablet",
+      "modern glass office building exterior low angle",
+      "minimalist luxury office interior dark aesthetic"
+    ]
+  },
+  "allPhotos": [
+    {
+      "url": "https://images.pexels.com/photos/35697009/pexels-photo-35697009/free-photo-of-modern-skyscrapers-in-sandton-urban-landscape.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "thumbnail": "https://images.pexels.com/photos/35697009/pexels-photo-35697009/free-photo-of-modern-skyscrapers-in-sandton-urban-landscape.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "alt": "Free Contemporary skyscrapers tower in Sandton, South Africa, reflecting a vibrant urban skyline. Stock Photo",
+      "credit": "Pexels",
+      "query": "Johannesburg Sandton skyline modern sunset"
+    },
+    {
+      "url": "https://images.pexels.com/photos/33622140/pexels-photo-33622140/free-photo-of-aerial-view-of-sandton-skyline-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "thumbnail": "https://images.pexels.com/photos/33622140/pexels-photo-33622140/free-photo-of-aerial-view-of-sandton-skyline-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "alt": "Free Aerial photo of Sandton skyline in Gauteng, South Africa at dusk, showcasing prominent skyscrapers. Stock Photo",
+      "credit": "Pexels",
+      "query": "Johannesburg Sandton skyline modern sunset"
+    },
+    {
+      "url": "https://images.pexels.com/photos/33622130/pexels-photo-33622130/free-photo-of-aerial-view-of-sandton-skyline-in-gauteng-south-africa.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "thumbnail": "https://images.pexels.com/photos/33622130/pexels-photo-33622130/free-photo-of-aerial-view-of-sandton-skyline-in-gauteng-south-africa.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "alt": "Free Aerial shot capturing the bustling urban skyline of Sandton in Gauteng, with its mix of modern skyscrapers and suburban areas. Stock Photo",
+      "credit": "Pexels",
+      "query": "Johannesburg Sandton skyline modern sunset"
+    },
+    {
+      "url": "https://images.pexels.com/photos/33622138/pexels-photo-33622138/free-photo-of-aerial-night-view-of-sandton-skyline-in-gauteng.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "thumbnail": "https://images.pexels.com/photos/33622138/pexels-photo-33622138/free-photo-of-aerial-night-view-of-sandton-skyline-in-gauteng.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "alt": "Free Stunning aerial nighttime view of the illuminated Sandton skyline in Gauteng, South Africa. Stock Photo",
+      "credit": "Pexels",
+      "query": "Johannesburg Sandton skyline modern sunset"
+    },
+    {
+      "url": "https://images.pexels.com/photos/35642753/pexels-photo-35642753/free-photo-of-modern-architecture-in-rosebank-south-africa.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "thumbnail": "https://images.pexels.com/photos/35642753/pexels-photo-35642753/free-photo-of-modern-architecture-in-rosebank-south-africa.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "alt": "Free Contemporary office buildings at a busy intersection in Rosebank, South Africa. Stock Photo",
+      "credit": "Pexels",
+      "query": "Johannesburg Sandton skyline modern sunset"
+    },
+    {
+      "url": "https://images.pexels.com/photos/33622135/pexels-photo-33622135/free-photo-of-aerial-night-view-of-sandton-skyline-in-gauteng.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "thumbnail": "https://images.pexels.com/photos/33622135/pexels-photo-33622135/free-photo-of-aerial-night-view-of-sandton-skyline-in-gauteng.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "alt": "Free Stunning aerial view of Sandton cityscape at night, showcasing vibrant lights and urban architecture in Gauteng, South Africa. Stock Photo",
+      "credit": "Pexels",
+      "query": "Johannesburg Sandton skyline modern sunset"
+    },
+    {
+      "url": "https://images.pexels.com/photos/33622139/pexels-photo-33622139/free-photo-of-aerial-night-view-of-sandton-city-skyline.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "thumbnail": "https://images.pexels.com/photos/33622139/pexels-photo-33622139/free-photo-of-aerial-night-view-of-sandton-city-skyline.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "alt": "Free Stunning aerial view of Sandton, Gauteng illuminated at night, showcasing cityscape and architecture. Stock Photo",
+      "credit": "Pexels",
+      "query": "Johannesburg Sandton skyline modern sunset"
+    },
+    {
+      "url": "https://images.pexels.com/photos/11119586/pexels-photo-11119586.jpeg?auto=compress&cs=tinysrgb&w=1280",
+      "thumbnail": "https://images.pexels.com/photos/11119586/pexels-photo-11119586.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "alt": "Free Stunning view of Sandton's Momentum Metropolitan building on a clear day. Stock Photo",
+      "credit": "Pexels",
+      "query": "Johannesburg Sandton skyline modern sunset"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1764810815228-b7f9432eec5c?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1764810815228-b7f9432eec5c?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern conference room with oval table and chairs.",
+      "credit": "Unsplash",
+      "query": "diverse corporate team meeting board room modern"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1771147372634-976f022c0033?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1771147372634-976f022c0033?w=400&auto=format&fit=crop&q=80",
+      "alt": "Orange chairs around a wooden conference table",
+      "credit": "Unsplash",
+      "query": "diverse corporate team meeting board room modern"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1637665662134-db459c1bbb46?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1637665662134-db459c1bbb46?w=400&auto=format&fit=crop&q=80",
+      "alt": "a conference room with a white table and black chairs",
+      "credit": "Unsplash",
+      "query": "diverse corporate team meeting board room modern"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1772112334844-2eed0111e690?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1772112334844-2eed0111e690?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern conference room with large table and chairs.",
+      "credit": "Unsplash",
+      "query": "diverse corporate team meeting board room modern"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1758518727707-b023e285b709?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1758518727707-b023e285b709?w=400&auto=format&fit=crop&q=80",
+      "alt": "Four professionals in a modern office meeting space.",
+      "credit": "Unsplash",
+      "query": "diverse corporate team meeting board room modern"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1758873269035-aae0e1fd3422?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1758873269035-aae0e1fd3422?w=400&auto=format&fit=crop&q=80",
+      "alt": "Team collaborating around a whiteboard in a modern office.",
+      "credit": "Unsplash",
+      "query": "diverse corporate team meeting board room modern"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1766802981831-8baf453bb1ee?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1766802981831-8baf453bb1ee?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern conference room with long wooden table and chairs",
+      "credit": "Unsplash",
+      "query": "diverse corporate team meeting board room modern"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1758691736097-7f735ac5f118?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1758691736097-7f735ac5f118?w=400&auto=format&fit=crop&q=80",
+      "alt": "Man presenting data on a large screen to colleagues.",
+      "credit": "Unsplash",
+      "query": "diverse corporate team meeting board room modern"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1686417365235-e459f10bb3f4?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1686417365235-e459f10bb3f4?w=400&auto=format&fit=crop&q=80",
+      "alt": "a blue and yellow abstract design on a black background",
+      "credit": "Unsplash",
+      "query": "abstract 3d finance graph gold and blue"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1767481626718-d9a54ead5501?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1767481626718-d9a54ead5501?w=400&auto=format&fit=crop&q=80",
+      "alt": "Golden diamond shape with grid pattern",
+      "credit": "Unsplash",
+      "query": "abstract 3d finance graph gold and blue"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1654150501793-b5c7c6ef1b84?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1654150501793-b5c7c6ef1b84?w=400&auto=format&fit=crop&q=80",
+      "alt": "a gold and blue swirl on a black background",
+      "credit": "Unsplash",
+      "query": "abstract 3d finance graph gold and blue"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1699456540859-87da1ecbac8e?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1699456540859-87da1ecbac8e?w=400&auto=format&fit=crop&q=80",
+      "alt": "a close up of a blue and yellow object",
+      "credit": "Unsplash",
+      "query": "abstract 3d finance graph gold and blue"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1732305477382-2d597e47b4ec?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1732305477382-2d597e47b4ec?w=400&auto=format&fit=crop&q=80",
+      "alt": "A close up of a blue and yellow wall",
+      "credit": "Unsplash",
+      "query": "abstract 3d finance graph gold and blue"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1642364706752-3af64cc1af5e?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1642364706752-3af64cc1af5e?w=400&auto=format&fit=crop&q=80",
+      "alt": "a number of different types of numbers floating in water",
+      "credit": "Unsplash",
+      "query": "abstract 3d finance graph gold and blue"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1660063235699-113ca63bde9a?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1660063235699-113ca63bde9a?w=400&auto=format&fit=crop&q=80",
+      "alt": "background pattern",
+      "credit": "Unsplash",
+      "query": "abstract 3d finance graph gold and blue"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1646310997905-14eb66d1e04a?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1646310997905-14eb66d1e04a?w=400&auto=format&fit=crop&q=80",
+      "alt": "a blue and yellow abstract background with curves",
+      "credit": "Unsplash",
+      "query": "abstract 3d finance graph gold and blue"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1594077810908-9ffd89d704ac?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1594077810908-9ffd89d704ac?w=400&auto=format&fit=crop&q=80",
+      "alt": "man in white and red crew neck t-shirt using laptop computer",
+      "credit": "Unsplash",
+      "query": "black businessman analyzing documents tablet"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1552652893-2aa10a0ab4df?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1552652893-2aa10a0ab4df?w=400&auto=format&fit=crop&q=80",
+      "alt": "man standing near high-rise building",
+      "credit": "Unsplash",
+      "query": "black businessman analyzing documents tablet"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1772033762665-fd99989fce45?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1772033762665-fd99989fce45?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern brick skyscraper against a clear blue sky",
+      "credit": "Unsplash",
+      "query": "modern glass office building exterior low angle"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1735306334072-97e80c418c32?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1735306334072-97e80c418c32?w=400&auto=format&fit=crop&q=80",
+      "alt": "A tall white building with blue windows against a blue sky",
+      "credit": "Unsplash",
+      "query": "modern glass office building exterior low angle"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1769146109206-e87b458649a7?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1769146109206-e87b458649a7?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern building with green tinted windows and leaves",
+      "credit": "Unsplash",
+      "query": "modern glass office building exterior low angle"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1761877676650-1d58a3481c6e?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1761877676650-1d58a3481c6e?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern building with glass windows against blue sky",
+      "credit": "Unsplash",
+      "query": "modern glass office building exterior low angle"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1772033762692-22922c5c8a79?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1772033762692-22922c5c8a79?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern glass building reflecting blue sky and clouds",
+      "credit": "Unsplash",
+      "query": "modern glass office building exterior low angle"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1549851501-a521e1e3fb85?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1549851501-a521e1e3fb85?w=400&auto=format&fit=crop&q=80",
+      "alt": "low-angle view of high-rise building",
+      "credit": "Unsplash",
+      "query": "modern glass office building exterior low angle"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1771942806343-71910840c852?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1771942806343-71910840c852?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern building with curved windows against sky",
+      "credit": "Unsplash",
+      "query": "modern glass office building exterior low angle"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1772033762746-e887b4a45ed0?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1772033762746-e887b4a45ed0?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern skyscraper reflecting clouds against a blue sky",
+      "credit": "Unsplash",
+      "query": "modern glass office building exterior low angle"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1564540574859-0dfb63985953?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1564540574859-0dfb63985953?w=400&auto=format&fit=crop&q=80",
+      "alt": "table lamp on desk inside room",
+      "credit": "Unsplash",
+      "query": "minimalist luxury office interior dark aesthetic"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1666718623430-da207b018ea3?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1666718623430-da207b018ea3?w=400&auto=format&fit=crop&q=80",
+      "alt": "an office with a large white table and chairs",
+      "credit": "Unsplash",
+      "query": "minimalist luxury office interior dark aesthetic"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1603673329776-28248af53fc0?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1603673329776-28248af53fc0?w=400&auto=format&fit=crop&q=80",
+      "alt": "white and red chalk board",
+      "credit": "Unsplash",
+      "query": "minimalist luxury office interior dark aesthetic"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1603980367201-85e0479436f5?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1603980367201-85e0479436f5?w=400&auto=format&fit=crop&q=80",
+      "alt": "white and black wooden cabinet",
+      "credit": "Unsplash",
+      "query": "minimalist luxury office interior dark aesthetic"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1666718621210-e662947b5dc3?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1666718621210-e662947b5dc3?w=400&auto=format&fit=crop&q=80",
+      "alt": "a room with a table and chairs",
+      "credit": "Unsplash",
+      "query": "minimalist luxury office interior dark aesthetic"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1637095937545-7d8c1edf4d2b?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1637095937545-7d8c1edf4d2b?w=400&auto=format&fit=crop&q=80",
+      "alt": "a chair and a desk in a room",
+      "credit": "Unsplash",
+      "query": "minimalist luxury office interior dark aesthetic"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1758833502047-8f1c7dc5edd7?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1758833502047-8f1c7dc5edd7?w=400&auto=format&fit=crop&q=80",
+      "alt": "Modern waiting area with yellow lighting and seating.",
+      "credit": "Unsplash",
+      "query": "minimalist luxury office interior dark aesthetic"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1696087225391-eb97abf5ba20?w=1200&auto=format&fit=crop&q=80",
+      "thumbnail": "https://images.unsplash.com/photo-1696087225391-eb97abf5ba20?w=400&auto=format&fit=crop&q=80",
+      "alt": "a desk with two monitors and a keyboard",
+      "credit": "Unsplash",
+      "query": "minimalist luxury office interior dark aesthetic"
+    }
+  ],
+  "imageAssignments": {
+    "/": [
+      {
+        "url": "https://images.pexels.com/photos/35697009/pexels-photo-35697009/free-photo-of-modern-skyscrapers-in-sandton-urban-landscape.jpeg?auto=compress&cs=tinysrgb&w=1280",
+        "thumbnail": "https://images.pexels.com/photos/35697009/pexels-photo-35697009/free-photo-of-modern-skyscrapers-in-sandton-urban-landscape.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "alt": "Free Contemporary skyscrapers tower in Sandton, South Africa, reflecting a vibrant urban skyline. Stock Photo",
+        "credit": "Pexels",
+        "query": "Johannesburg Sandton skyline modern sunset"
+      },
+      {
+        "url": "https://images.pexels.com/photos/33622140/pexels-photo-33622140/free-photo-of-aerial-view-of-sandton-skyline-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=1280",
+        "thumbnail": "https://images.pexels.com/photos/33622140/pexels-photo-33622140/free-photo-of-aerial-view-of-sandton-skyline-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "alt": "Free Aerial photo of Sandton skyline in Gauteng, South Africa at dusk, showcasing prominent skyscrapers. Stock Photo",
+        "credit": "Pexels",
+        "query": "Johannesburg Sandton skyline modern sunset"
+      },
+      {
+        "url": "https://images.pexels.com/photos/33622130/pexels-photo-33622130/free-photo-of-aerial-view-of-sandton-skyline-in-gauteng-south-africa.jpeg?auto=compress&cs=tinysrgb&w=1280",
+        "thumbnail": "https://images.pexels.com/photos/33622130/pexels-photo-33622130/free-photo-of-aerial-view-of-sandton-skyline-in-gauteng-south-africa.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "alt": "Free Aerial shot capturing the bustling urban skyline of Sandton in Gauteng, with its mix of modern skyscrapers and suburban areas. Stock Photo",
+        "credit": "Pexels",
+        "query": "Johannesburg Sandton skyline modern sunset"
+      },
+      {
+        "url": "https://images.pexels.com/photos/33622138/pexels-photo-33622138/free-photo-of-aerial-night-view-of-sandton-skyline-in-gauteng.jpeg?auto=compress&cs=tinysrgb&w=1280",
+        "thumbnail": "https://images.pexels.com/photos/33622138/pexels-photo-33622138/free-photo-of-aerial-night-view-of-sandton-skyline-in-gauteng.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "alt": "Free Stunning aerial nighttime view of the illuminated Sandton skyline in Gauteng, South Africa. Stock Photo",
+        "credit": "Pexels",
+        "query": "Johannesburg Sandton skyline modern sunset"
+      }
+    ],
+    "/about": [
+      {
+        "url": "https://images.pexels.com/photos/35642753/pexels-photo-35642753/free-photo-of-modern-architecture-in-rosebank-south-africa.jpeg?auto=compress&cs=tinysrgb&w=1280",
+        "thumbnail": "https://images.pexels.com/photos/35642753/pexels-photo-35642753/free-photo-of-modern-architecture-in-rosebank-south-africa.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "alt": "Free Contemporary office buildings at a busy intersection in Rosebank, South Africa. Stock Photo",
+        "credit": "Pexels",
+        "query": "Johannesburg Sandton skyline modern sunset"
+      },
+      {
+        "url": "https://images.pexels.com/photos/33622135/pexels-photo-33622135/free-photo-of-aerial-night-view-of-sandton-skyline-in-gauteng.jpeg?auto=compress&cs=tinysrgb&w=1280",
+        "thumbnail": "https://images.pexels.com/photos/33622135/pexels-photo-33622135/free-photo-of-aerial-night-view-of-sandton-skyline-in-gauteng.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "alt": "Free Stunning aerial view of Sandton cityscape at night, showcasing vibrant lights and urban architecture in Gauteng, South Africa. Stock Photo",
+        "credit": "Pexels",
+        "query": "Johannesburg Sandton skyline modern sunset"
+      },
+      {
+        "url": "https://images.pexels.com/photos/33622139/pexels-photo-33622139/free-photo-of-aerial-night-view-of-sandton-city-skyline.jpeg?auto=compress&cs=tinysrgb&w=1280",
+        "thumbnail": "https://images.pexels.com/photos/33622139/pexels-photo-33622139/free-photo-of-aerial-night-view-of-sandton-city-skyline.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "alt": "Free Stunning aerial view of Sandton, Gauteng illuminated at night, showcasing cityscape and architecture. Stock Photo",
+        "credit": "Pexels",
+        "query": "Johannesburg Sandton skyline modern sunset"
+      },
+      {
+        "url": "https://images.pexels.com/photos/11119586/pexels-photo-11119586.jpeg?auto=compress&cs=tinysrgb&w=1280",
+        "thumbnail": "https://images.pexels.com/photos/11119586/pexels-photo-11119586.jpeg?auto=compress&cs=tinysrgb&w=400",
+        "alt": "Free Stunning view of Sandton's Momentum Metropolitan building on a clear day. Stock Photo",
+        "credit": "Pexels",
+        "query": "Johannesburg Sandton skyline modern sunset"
+      }
+    ],
+    "/team": [
+      {
+        "url": "https://images.unsplash.com/photo-1758518727707-b023e285b709?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1758518727707-b023e285b709?w=400&auto=format&fit=crop&q=80",
+        "alt": "Four professionals in a modern office meeting space.",
+        "credit": "Unsplash",
+        "query": "diverse corporate team meeting board room modern"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758833502047-8f1c7dc5edd7?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1758833502047-8f1c7dc5edd7?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern waiting area with yellow lighting and seating.",
+        "credit": "Unsplash",
+        "query": "minimalist luxury office interior dark aesthetic"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1696087225391-eb97abf5ba20?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1696087225391-eb97abf5ba20?w=400&auto=format&fit=crop&q=80",
+        "alt": "a desk with two monitors and a keyboard",
+        "credit": "Unsplash",
+        "query": "minimalist luxury office interior dark aesthetic"
+      }
+    ],
+    "/services": [
+      {
+        "url": "https://images.unsplash.com/photo-1686417365235-e459f10bb3f4?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1686417365235-e459f10bb3f4?w=400&auto=format&fit=crop&q=80",
+        "alt": "a blue and yellow abstract design on a black background",
+        "credit": "Unsplash",
+        "query": "abstract 3d finance graph gold and blue"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1767481626718-d9a54ead5501?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1767481626718-d9a54ead5501?w=400&auto=format&fit=crop&q=80",
+        "alt": "Golden diamond shape with grid pattern",
+        "credit": "Unsplash",
+        "query": "abstract 3d finance graph gold and blue"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1654150501793-b5c7c6ef1b84?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1654150501793-b5c7c6ef1b84?w=400&auto=format&fit=crop&q=80",
+        "alt": "a gold and blue swirl on a black background",
+        "credit": "Unsplash",
+        "query": "abstract 3d finance graph gold and blue"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1699456540859-87da1ecbac8e?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1699456540859-87da1ecbac8e?w=400&auto=format&fit=crop&q=80",
+        "alt": "a close up of a blue and yellow object",
+        "credit": "Unsplash",
+        "query": "abstract 3d finance graph gold and blue"
+      }
+    ],
+    "/services/tax-consulting": [
+      {
+        "url": "https://images.unsplash.com/photo-1764810815228-b7f9432eec5c?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1764810815228-b7f9432eec5c?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern conference room with oval table and chairs.",
+        "credit": "Unsplash",
+        "query": "diverse corporate team meeting board room modern"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1771147372634-976f022c0033?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1771147372634-976f022c0033?w=400&auto=format&fit=crop&q=80",
+        "alt": "Orange chairs around a wooden conference table",
+        "credit": "Unsplash",
+        "query": "diverse corporate team meeting board room modern"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1637665662134-db459c1bbb46?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1637665662134-db459c1bbb46?w=400&auto=format&fit=crop&q=80",
+        "alt": "a conference room with a white table and black chairs",
+        "credit": "Unsplash",
+        "query": "diverse corporate team meeting board room modern"
+      }
+    ],
+    "/services/audit-assurance": [
+      {
+        "url": "https://images.unsplash.com/photo-1772112334844-2eed0111e690?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1772112334844-2eed0111e690?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern conference room with large table and chairs.",
+        "credit": "Unsplash",
+        "query": "diverse corporate team meeting board room modern"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758873269035-aae0e1fd3422?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1758873269035-aae0e1fd3422?w=400&auto=format&fit=crop&q=80",
+        "alt": "Team collaborating around a whiteboard in a modern office.",
+        "credit": "Unsplash",
+        "query": "diverse corporate team meeting board room modern"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1766802981831-8baf453bb1ee?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1766802981831-8baf453bb1ee?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern conference room with long wooden table and chairs",
+        "credit": "Unsplash",
+        "query": "diverse corporate team meeting board room modern"
+      }
+    ],
+    "/services/business-advisory": [
+      {
+        "url": "https://images.unsplash.com/photo-1758691736097-7f735ac5f118?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1758691736097-7f735ac5f118?w=400&auto=format&fit=crop&q=80",
+        "alt": "Man presenting data on a large screen to colleagues.",
+        "credit": "Unsplash",
+        "query": "diverse corporate team meeting board room modern"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1732305477382-2d597e47b4ec?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1732305477382-2d597e47b4ec?w=400&auto=format&fit=crop&q=80",
+        "alt": "A close up of a blue and yellow wall",
+        "credit": "Unsplash",
+        "query": "abstract 3d finance graph gold and blue"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1642364706752-3af64cc1af5e?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1642364706752-3af64cc1af5e?w=400&auto=format&fit=crop&q=80",
+        "alt": "a number of different types of numbers floating in water",
+        "credit": "Unsplash",
+        "query": "abstract 3d finance graph gold and blue"
+      }
+    ],
+    "/services/wealth-management": [
+      {
+        "url": "https://images.unsplash.com/photo-1660063235699-113ca63bde9a?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1660063235699-113ca63bde9a?w=400&auto=format&fit=crop&q=80",
+        "alt": "background pattern",
+        "credit": "Unsplash",
+        "query": "abstract 3d finance graph gold and blue"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1646310997905-14eb66d1e04a?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1646310997905-14eb66d1e04a?w=400&auto=format&fit=crop&q=80",
+        "alt": "a blue and yellow abstract background with curves",
+        "credit": "Unsplash",
+        "query": "abstract 3d finance graph gold and blue"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1594077810908-9ffd89d704ac?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1594077810908-9ffd89d704ac?w=400&auto=format&fit=crop&q=80",
+        "alt": "man in white and red crew neck t-shirt using laptop computer",
+        "credit": "Unsplash",
+        "query": "black businessman analyzing documents tablet"
+      }
+    ],
+    "/insights": [
+      {
+        "url": "https://images.unsplash.com/photo-1552652893-2aa10a0ab4df?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1552652893-2aa10a0ab4df?w=400&auto=format&fit=crop&q=80",
+        "alt": "man standing near high-rise building",
+        "credit": "Unsplash",
+        "query": "black businessman analyzing documents tablet"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1772033762665-fd99989fce45?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1772033762665-fd99989fce45?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern brick skyscraper against a clear blue sky",
+        "credit": "Unsplash",
+        "query": "modern glass office building exterior low angle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1735306334072-97e80c418c32?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1735306334072-97e80c418c32?w=400&auto=format&fit=crop&q=80",
+        "alt": "A tall white building with blue windows against a blue sky",
+        "credit": "Unsplash",
+        "query": "modern glass office building exterior low angle"
+      }
+    ],
+    "/faq": [
+      {
+        "url": "https://images.unsplash.com/photo-1769146109206-e87b458649a7?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1769146109206-e87b458649a7?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern building with green tinted windows and leaves",
+        "credit": "Unsplash",
+        "query": "modern glass office building exterior low angle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1761877676650-1d58a3481c6e?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1761877676650-1d58a3481c6e?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern building with glass windows against blue sky",
+        "credit": "Unsplash",
+        "query": "modern glass office building exterior low angle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1772033762692-22922c5c8a79?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1772033762692-22922c5c8a79?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern glass building reflecting blue sky and clouds",
+        "credit": "Unsplash",
+        "query": "modern glass office building exterior low angle"
+      }
+    ],
+    "/contact": [
+      {
+        "url": "https://images.unsplash.com/photo-1549851501-a521e1e3fb85?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1549851501-a521e1e3fb85?w=400&auto=format&fit=crop&q=80",
+        "alt": "low-angle view of high-rise building",
+        "credit": "Unsplash",
+        "query": "modern glass office building exterior low angle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1771942806343-71910840c852?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1771942806343-71910840c852?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern building with curved windows against sky",
+        "credit": "Unsplash",
+        "query": "modern glass office building exterior low angle"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1772033762746-e887b4a45ed0?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1772033762746-e887b4a45ed0?w=400&auto=format&fit=crop&q=80",
+        "alt": "Modern skyscraper reflecting clouds against a blue sky",
+        "credit": "Unsplash",
+        "query": "modern glass office building exterior low angle"
+      }
+    ],
+    "/privacy-policy": [
+      {
+        "url": "https://images.unsplash.com/photo-1564540574859-0dfb63985953?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1564540574859-0dfb63985953?w=400&auto=format&fit=crop&q=80",
+        "alt": "table lamp on desk inside room",
+        "credit": "Unsplash",
+        "query": "minimalist luxury office interior dark aesthetic"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1666718623430-da207b018ea3?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1666718623430-da207b018ea3?w=400&auto=format&fit=crop&q=80",
+        "alt": "an office with a large white table and chairs",
+        "credit": "Unsplash",
+        "query": "minimalist luxury office interior dark aesthetic"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1603673329776-28248af53fc0?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1603673329776-28248af53fc0?w=400&auto=format&fit=crop&q=80",
+        "alt": "white and red chalk board",
+        "credit": "Unsplash",
+        "query": "minimalist luxury office interior dark aesthetic"
+      }
+    ],
+    "/terms-of-service": [
+      {
+        "url": "https://images.unsplash.com/photo-1603980367201-85e0479436f5?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1603980367201-85e0479436f5?w=400&auto=format&fit=crop&q=80",
+        "alt": "white and black wooden cabinet",
+        "credit": "Unsplash",
+        "query": "minimalist luxury office interior dark aesthetic"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1666718621210-e662947b5dc3?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1666718621210-e662947b5dc3?w=400&auto=format&fit=crop&q=80",
+        "alt": "a room with a table and chairs",
+        "credit": "Unsplash",
+        "query": "minimalist luxury office interior dark aesthetic"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1637095937545-7d8c1edf4d2b?w=1200&auto=format&fit=crop&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1637095937545-7d8c1edf4d2b?w=400&auto=format&fit=crop&q=80",
+        "alt": "a chair and a desk in a room",
+        "credit": "Unsplash",
+        "query": "minimalist luxury office interior dark aesthetic"
+      }
+    ]
+  },
+  "refsCount": 5
+}
